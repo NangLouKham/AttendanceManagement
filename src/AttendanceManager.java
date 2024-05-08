@@ -9,7 +9,7 @@ public class AttendanceManager {
     public void takeAttendance(Classroom classroom, List<String> presentStudents){
     List<Student> students = classroom.getStudents();
     for(Student student: students){
-        student.setPresent((presentStudetns.contains(student.getName)));
+        student.setPresent((presentStudents.contains(student.getName())));
     }
     attendanceRecords.put(classroom, students);
     }
