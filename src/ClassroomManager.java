@@ -4,11 +4,10 @@ public class ClassroomManager {
     public ClassroomManager(){
         this.classrooms = new ArrayList<>();
     }
-    public void addClassroom( String className){
-        classrooms.add(new Classroom(className));
+    public void addClassroom( String Legendary ){classrooms.add(new Classroom(Legendary));
     }
-    public void deleteClassroom(String className){
-        classrooms.removeIf(classroom -> classroom.getClassName().equals(className));
+    public void deleteClassroom(String Legendary ){
+        classrooms.removeIf(classroom -> classroom.getClassName().equals(Legendary));
     }
     public Classroom getClassroom(String className){
         for (Classroom classroom: classrooms){
