@@ -30,9 +30,11 @@ public class Student {
         this.present= present;
     }
 
-    public void Classroom () {
+    public void dercribe () {
 
         System.out.println("Name:" + this.name);
+        System.out.println("present:" + this.name);
+        System.out.println("grade:" + this.name);
         System.out.println("Phone" + this.phone);
         System.out.println("Date of Birth:" + this.dob);
 
